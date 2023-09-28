@@ -17,9 +17,8 @@ jobs:
         sudo apt-get install -y curl
 
         # Set your API URL and other environment variables
-        export API_URL="https://apipheny.io/"
-
-        #export API_KEY="your-api-key"
+        export API_URL="https://www.googleapis.com/"
+        export API_KEY="AIzaSyBiKcaoXmVApwnT24hitQG_dwjGvAj6Ddw"
 
         # You can also set other variables as needed
     - name: Run API Tests and Save Response
@@ -42,3 +41,8 @@ jobs:
     - name: Cleanup
       run: |
         # Clean up any resources or temporary files if needed
+
+
+
+
+        
